@@ -404,7 +404,6 @@
 }
 
 
-
 /*CSS responsive for Mobile*/
 @media only screen and (max-width: 767px) {
 
@@ -437,9 +436,10 @@
     /*Mobile Menu Screen 2*/
     .open-menu{
         width:100%;
+        max-width: 100%;
         margin-top: 0px;
         padding-left: 20px;
-        padding-right:20px;
+        padding-right: 20px;
     }
     .menu-brief-list li p{
         width: 251px;
