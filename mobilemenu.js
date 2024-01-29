@@ -4,6 +4,7 @@ $('.controls').click(function(){
     $('.line3').toggleClass("line3-transform");
     $('.toggle-button').toggleClass("toggle-active");
 })
+
 $('.open').click(function(){
     $('.toggle-button').hide(1000);
     $('.open-menu').addClass("open-active");
