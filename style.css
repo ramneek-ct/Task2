@@ -199,34 +199,25 @@ header{
 }
 
 .controls{
-    position:relative;
     display: grid;
     width: 24px;
     height: 24px;
-}
-.line2{
-    margin-top: 8px;
-}
-.line3{
-    margin-top: 16px;
 }
 .line1,
 .line2,
 .line3{
     background-color: #8B3C50;
+    margin: 6px 0;
     height:2px;
     width: 24px;
-    position: absolute;
-    transition: transform 1s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .line1-transform{
-    transform: rotate(45deg);
-    top:16px;
+    transform: translate(0, 8px) rotate(-45deg);
 }
 .line3-transform{
-    transform: rotate(-45deg);
-    top:0;
+    transform: translate(0, -8px) rotate(45deg);
 }
 .line2-transform{
     opacity: 0;
